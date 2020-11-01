@@ -113,6 +113,10 @@ hr {
     margin-right: 5px;
 }
 
+.redes a {
+    text-decoration: none;
+}
+
 .redes img:hover {
     background-color: white;
     border-radius: 100%;
