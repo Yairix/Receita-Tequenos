@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(255, 166, 0, 0.425);
+}
+.fondo {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.575);
+    border-radius: 50px;
+    width: 70%;
+    padding: 50px 60px 30px 60px;
+}
+h1 {
+    font-weight: 800;
+    font-size: 89px;
+    line-Height: 79px;
+    color: #ffb300; 
+}
+
+.one {
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.two {
+    font-size: 21px;
+    font-weight: 500;
+    line-Height: 1.61;
+    color: black;
+}
+
+
+#photo01 {
+    width: 100%;
+    height: 374px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px #00000065;
+}
+
+ul {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1.61;
+}
+
+ol {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1.61;
+    
+
+}
+
+iframe {
+    width: 100%;
+    height: 374px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px #00000065;
+}
+
+h2 {
+    font-size: 25px;
+    color: #ffb300;
+    font-weight: 700;
+    
+}
+
+hr {
+    margin-top: 34px;
+    margin-bottom: 34px;
+    height: 2px;
+    background-color: grey;
+}
+.img-four {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+
+.four {
+    width: 400px;
+    height: 374px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px #00000065;
+}
+
+.finale {
+    font-size: 21px;
+    font-weight: 900;
+    color: #0037B3;
+    text-align: center;
+}
+
+.redes {
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    background-color: rgba(51, 51, 51, 0.308);
+}
+
+.redes img {
+    width: 40px;
+    margin-right: 5px;
+}
+
+.redes img:hover {
+    background-color: white;
+    border-radius: 100%;
+    backface-visibility: visible;
+}
+
+/*Responsive*/
+
+@media (min-width: 320px) and (max-width: 600px) {
+    #photo01 {
+        height: 200px;
+    }
+
+    h1 {
+        font-size: 40px;
+        line-Height: 50px;
+    }
+
+    .one {
+        font-size: 16px;
+    }
+
+    h2 {
+       font-size: 20px; 
+    }
+
+    .two {
+        font-size: 16px;
+    }
+
+    ul, ol {
+        font-size: 16px;
+    }
+
+    iframe {
+        height: 200px;
+    }
+
+    .four {
+        width: 200px;
+    height: 200px;
+    }
+
+    .finale {
+        font-size: 14px;
+    }
+
+    .fondo {
+        padding: 25px 30px 15px 30px;
+    }
+}
+    
